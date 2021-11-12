@@ -13,7 +13,7 @@ cursor: none;
     width:2.1rem;
     position: absolute;
     border-radius: 50%;
-    z-index:1 ;
+    z-index:100 ;
     /* border:2px solid black; */
     /* backdrop-filter: blur(0px); */
     transform: translate(-40%,-40%);
@@ -31,7 +31,7 @@ cursor: none;
     background-color: yellow;
     height:12px;
     width:12px;
-    z-index: 1;
+    z-index: 100;
     border-radius:50% ;
     position: absolute;
     pointer-events: none;
@@ -42,6 +42,9 @@ cursor: none;
     background-color: black;
     height: 4px;
     width:10px;
+}
+.hover1:hover,.hover2:hover,.hover3:hover,.hover4:hover,.hover5:hover,.hover6:hover,.hover7:hover,.hover8:hover{
+    color:black;
 
 }
 

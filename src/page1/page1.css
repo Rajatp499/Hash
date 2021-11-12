@@ -37,7 +37,7 @@
   height:2.7rem;
   width:3rem;
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
   z-index: 2;
   top:20px;
   right:50px;
@@ -50,20 +50,20 @@
 }
 
 .menus_1{
-  background-color: rgba(245, 245, 245, 0.781);
+  background-color: #213953;
   height: 3.3px;
   width:45px;
   animation: menus 2s infinite alternate ;
 }
 .menus_2{
-  background-color: rgba(245, 245, 245, 0.781);
+  background-color: #213953;
   height: 3.3px;
   width:45px;
   animation: menus 2s infinite alternate ;
 
 }
 .menus_3{
-  background-color: rgba(245, 245, 245, 0.781);
+  background-color: #213953;
   height: 3.3px;
   width:45px;
   animation: menus 2s 1.5s infinite alternate ;
@@ -78,9 +78,9 @@ width:25px;
 } 
 }
 .page1_menu{
-  z-index: -2;
+  z-index: -1;
   /* opacity: 0; */
-  position: absolute;
+  position: fixed;
   right:0px;
   height: 100vh;
   width:0%;
@@ -96,7 +96,8 @@ width:25px;
   width:4rem;
   border-radius: 50%;
   position: absolute;
-  z-index: 2;
+  opacity:0;
+  z-index: -2;
   top:60px;
   color:whitesmoke;
   font-size: 70px;

@@ -1,0 +1,65 @@
+.industries{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: none;
+}
+.indpage2_left {
+    margin-top: 40px;
+    width: 40%;
+    height: 50vh;
+    /* background-color: red; */
+    padding: 40px;
+    padding-left:65px;
+  
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+  .indpage2_right {
+    margin-top: 70px;
+    width: 55%;
+    height: 45vh;
+    /* background-color: rgb(143, 76, 76); */
+  
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-evenly;
+  
+  }
+  .indpage2_left span {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 50px;
+    color:#0c72fa;
+    font-weight: 500;
+  }
+  .line {
+    background-color: black;
+    height: 4px;
+    width: 80px;
+    margin-bottom: 30px;
+    background-color: #ff871f;
+    
+  }
+  .industries_card{
+      height:16vh;
+      width:14vw;
+      background-color: white;
+      color:#5c6168;
+      border-radius: 13px;
+      font-size: 13px;
+      text-align: center;
+      letter-spacing: 1px;
+      margin-left: 20px;
+      margin-right: 20px;
+      box-shadow: rgba(0, 0, 0, 0.40) 5px 5px 15px;  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.industries_card img{
+    height:60px;
+    width:60px;
+}

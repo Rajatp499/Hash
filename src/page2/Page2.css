@@ -1,7 +1,44 @@
-.page2{
-    height:100vh;
-    width:100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+.page2 {
+  height: 100vh;
+  width: 100%;
+  background-color: #c4cdd871;
 }
+fieldset {
+  height: 44.6vh;
+  background-color: #4282c7de;
+  border: none;
+}
+fieldset legend {
+  margin-left: 35vw;
+  /* transform: translate(-50%,0%); */
+}
+legend button {
+  height: 3.5rem;
+  width: 9.5vw;
+  border: none;
+  /* background-color: #1b80d89f; */
+  color: whitesmoke;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border-right: 0.1px solid rgba(0, 0, 0, 0.137);
+  background-color: #5d7488;
+}
+legend button:hover {
+  background-color: #0c72fa;
+}
+/* #particle-js {
+  position: absolute;
+  width: 10%;
+  height: 10vh;
+  background-color: #6b4c4f;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+} */
+/* .particle{
+  position: relative;
+  display: block;
+} */
